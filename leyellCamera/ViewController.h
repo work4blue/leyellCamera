@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "CustomImagePickerController.h"
+#import "ImageFilterProcessViewController.h"
+
+@interface ViewController : UIViewController<CustomImagePickerControllerDelegate,ImageFitlerProcessDelegate,UINavigationControllerDelegate>
+
+
+@property(nonatomic, retain) IBOutlet UIImageView * imageView;
+@property(nonatomic, retain) IBOutlet UILabel * label;
+
+@property(nonatomic) BOOL needTake ;
 
 @end

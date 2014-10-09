@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8509F8E719E3F8DF00F053C5 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8509F8E619E3F8DF00F053C5 /* SplashViewController.m */; };
+		8509F8EB19E454D100F053C5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8509F8EA19E454D100F053C5 /* MediaPlayer.framework */; };
+		8509F8EC19E454E600F053C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8509F8E819E4546B00F053C5 /* CoreMedia.framework */; };
+		8509F8EE19E4562400F053C5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8509F8ED19E4562400F053C5 /* AVFoundation.framework */; };
 		8564793119DF03EE00A72F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8564793019DF03EE00A72F8B /* Foundation.framework */; };
 		8564793319DF03EE00A72F8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8564793219DF03EE00A72F8B /* CoreGraphics.framework */; };
 		8564793519DF03EE00A72F8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8564793419DF03EE00A72F8B /* UIKit.framework */; };
@@ -21,6 +25,27 @@
 		8564795219DF03EE00A72F8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8564793419DF03EE00A72F8B /* UIKit.framework */; };
 		8564795A19DF03EE00A72F8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8564795819DF03EE00A72F8B /* InfoPlist.strings */; };
 		8564795C19DF03EE00A72F8B /* leyellCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564795B19DF03EE00A72F8B /* leyellCameraTests.m */; };
+		8564797219DF16B700A72F8B /* CustomImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564796A19DF16B700A72F8B /* CustomImagePickerController.m */; };
+		8564797319DF16B700A72F8B /* ImageFilterProcessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564796C19DF16B700A72F8B /* ImageFilterProcessViewController.m */; };
+		8564797419DF16B700A72F8B /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564796E19DF16B700A72F8B /* ImageUtil.m */; };
+		8564797519DF16B700A72F8B /* IphoneScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564797019DF16B700A72F8B /* IphoneScreen.m */; };
+		8564798119DF181E00A72F8B /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564797819DF181D00A72F8B /* UIImage+Alpha.m */; };
+		8564798219DF181E00A72F8B /* UIImage+Cut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564797A19DF181D00A72F8B /* UIImage+Cut.m */; };
+		8564798319DF181E00A72F8B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564797C19DF181E00A72F8B /* UIImage+Resize.m */; };
+		8564798419DF181E00A72F8B /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564797E19DF181E00A72F8B /* UIImage+RoundedCorner.m */; };
+		8564798519DF181E00A72F8B /* UIImage+SplitImageIntoTwoParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564798019DF181E00A72F8B /* UIImage+SplitImageIntoTwoParts.m */; };
+		8564799319DF84A000A72F8B /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564798719DF84A000A72F8B /* btn_back.png */; };
+		8564799419DF84A000A72F8B /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564798819DF84A000A72F8B /* btn_back@2x.png */; };
+		8564799519DF84A000A72F8B /* camera_album.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564798919DF84A000A72F8B /* camera_album.png */; };
+		8564799619DF84A000A72F8B /* camera_album@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564798A19DF84A000A72F8B /* camera_album@2x.png */; };
+		8564799719DF84A000A72F8B /* camera_btn_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564798B19DF84A000A72F8B /* camera_btn_ok.png */; };
+		8564799819DF84A000A72F8B /* camera_btn_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564798C19DF84A000A72F8B /* camera_btn_ok@2x.png */; };
+		8564799919DF84A000A72F8B /* camera_button_switch_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564798D19DF84A000A72F8B /* camera_button_switch_camera.png */; };
+		8564799A19DF84A000A72F8B /* camera_button_switch_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564798E19DF84A000A72F8B /* camera_button_switch_camera@2x.png */; };
+		8564799B19DF84A000A72F8B /* camera_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564798F19DF84A000A72F8B /* camera_cancel.png */; };
+		8564799C19DF84A000A72F8B /* camera_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564799019DF84A000A72F8B /* camera_cancel@2x.png */; };
+		8564799D19DF84A000A72F8B /* camera_shoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564799119DF84A000A72F8B /* camera_shoot.png */; };
+		8564799E19DF84A000A72F8B /* camera_shoot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564799219DF84A000A72F8B /* camera_shoot@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8509F8E519E3F8DF00F053C5 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashViewController.h; path = Sources/SplashViewController.h; sourceTree = "<group>"; };
+		8509F8E619E3F8DF00F053C5 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = Sources/SplashViewController.m; sourceTree = "<group>"; };
+		8509F8E819E4546B00F053C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8509F8EA19E454D100F053C5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		8509F8ED19E4562400F053C5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8564792D19DF03EE00A72F8B /* leyellCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leyellCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8564793019DF03EE00A72F8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8564793219DF03EE00A72F8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +83,39 @@
 		8564795719DF03EE00A72F8B /* leyellCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "leyellCameraTests-Info.plist"; sourceTree = "<group>"; };
 		8564795919DF03EE00A72F8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8564795B19DF03EE00A72F8B /* leyellCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leyellCameraTests.m; sourceTree = "<group>"; };
+		8564796519DF106100A72F8B /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Sources/Common.h; sourceTree = "<group>"; };
+		8564796819DF16B700A72F8B /* ColorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMatrix.h; sourceTree = "<group>"; };
+		8564796919DF16B700A72F8B /* CustomImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImagePickerController.h; sourceTree = "<group>"; };
+		8564796A19DF16B700A72F8B /* CustomImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImagePickerController.m; sourceTree = "<group>"; };
+		8564796B19DF16B700A72F8B /* ImageFilterProcessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilterProcessViewController.h; sourceTree = "<group>"; };
+		8564796C19DF16B700A72F8B /* ImageFilterProcessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilterProcessViewController.m; sourceTree = "<group>"; };
+		8564796D19DF16B700A72F8B /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		8564796E19DF16B700A72F8B /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		8564796F19DF16B700A72F8B /* IphoneScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IphoneScreen.h; sourceTree = "<group>"; };
+		8564797019DF16B700A72F8B /* IphoneScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IphoneScreen.m; sourceTree = "<group>"; };
+		8564797119DF16B700A72F8B /* PickerAndFitlerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerAndFitlerAppDelegate.h; sourceTree = "<group>"; };
+		8564797719DF181D00A72F8B /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		8564797819DF181D00A72F8B /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		8564797919DF181D00A72F8B /* UIImage+Cut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Cut.h"; sourceTree = "<group>"; };
+		8564797A19DF181D00A72F8B /* UIImage+Cut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Cut.m"; sourceTree = "<group>"; };
+		8564797B19DF181E00A72F8B /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		8564797C19DF181E00A72F8B /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		8564797D19DF181E00A72F8B /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		8564797E19DF181E00A72F8B /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		8564797F19DF181E00A72F8B /* UIImage+SplitImageIntoTwoParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SplitImageIntoTwoParts.h"; sourceTree = "<group>"; };
+		8564798019DF181E00A72F8B /* UIImage+SplitImageIntoTwoParts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SplitImageIntoTwoParts.m"; sourceTree = "<group>"; };
+		8564798719DF84A000A72F8B /* btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back.png; sourceTree = "<group>"; };
+		8564798819DF84A000A72F8B /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
+		8564798919DF84A000A72F8B /* camera_album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_album.png; sourceTree = "<group>"; };
+		8564798A19DF84A000A72F8B /* camera_album@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_album@2x.png"; sourceTree = "<group>"; };
+		8564798B19DF84A000A72F8B /* camera_btn_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_btn_ok.png; sourceTree = "<group>"; };
+		8564798C19DF84A000A72F8B /* camera_btn_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_btn_ok@2x.png"; sourceTree = "<group>"; };
+		8564798D19DF84A000A72F8B /* camera_button_switch_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_button_switch_camera.png; sourceTree = "<group>"; };
+		8564798E19DF84A000A72F8B /* camera_button_switch_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_button_switch_camera@2x.png"; sourceTree = "<group>"; };
+		8564798F19DF84A000A72F8B /* camera_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_cancel.png; sourceTree = "<group>"; };
+		8564799019DF84A000A72F8B /* camera_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_cancel@2x.png"; sourceTree = "<group>"; };
+		8564799119DF84A000A72F8B /* camera_shoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_shoot.png; sourceTree = "<group>"; };
+		8564799219DF84A000A72F8B /* camera_shoot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_shoot@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +123,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8509F8EE19E4562400F053C5 /* AVFoundation.framework in Frameworks */,
+				8509F8EC19E454E600F053C5 /* CoreMedia.framework in Frameworks */,
+				8509F8EB19E454D100F053C5 /* MediaPlayer.framework in Frameworks */,
 				8564793319DF03EE00A72F8B /* CoreGraphics.framework in Frameworks */,
 				8564793519DF03EE00A72F8B /* UIKit.framework in Frameworks */,
 				8564793119DF03EE00A72F8B /* Foundation.framework in Frameworks */,
@@ -101,6 +167,9 @@
 		8564792F19DF03EE00A72F8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8509F8ED19E4562400F053C5 /* AVFoundation.framework */,
+				8509F8EA19E454D100F053C5 /* MediaPlayer.framework */,
+				8509F8E819E4546B00F053C5 /* CoreMedia.framework */,
 				8564793019DF03EE00A72F8B /* Foundation.framework */,
 				8564793219DF03EE00A72F8B /* CoreGraphics.framework */,
 				8564793419DF03EE00A72F8B /* UIKit.framework */,
@@ -112,6 +181,9 @@
 		8564793619DF03EE00A72F8B /* leyellCamera */ = {
 			isa = PBXGroup;
 			children = (
+				8564798619DF84A000A72F8B /* camera */,
+				8564796619DF16B700A72F8B /* lib */,
+				8564796519DF106100A72F8B /* Common.h */,
 				8564793F19DF03EE00A72F8B /* AppDelegate.h */,
 				8564794019DF03EE00A72F8B /* AppDelegate.m */,
 				8564794219DF03EE00A72F8B /* Main.storyboard */,
@@ -119,6 +191,8 @@
 				8564794619DF03EE00A72F8B /* ViewController.m */,
 				8564794819DF03EE00A72F8B /* Images.xcassets */,
 				8564793719DF03EE00A72F8B /* Supporting Files */,
+				8509F8E519E3F8DF00F053C5 /* SplashViewController.h */,
+				8509F8E619E3F8DF00F053C5 /* SplashViewController.m */,
 			);
 			path = leyellCamera;
 			sourceTree = "<group>";
@@ -151,6 +225,70 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		8564796619DF16B700A72F8B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8564797619DF181D00A72F8B /* UIImage-Extensions */,
+				8564796719DF16B700A72F8B /* CustomImagePicker */,
+			);
+			name = lib;
+			path = Sources/lib;
+			sourceTree = "<group>";
+		};
+		8564796719DF16B700A72F8B /* CustomImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				8564796819DF16B700A72F8B /* ColorMatrix.h */,
+				8564796919DF16B700A72F8B /* CustomImagePickerController.h */,
+				8564796A19DF16B700A72F8B /* CustomImagePickerController.m */,
+				8564796B19DF16B700A72F8B /* ImageFilterProcessViewController.h */,
+				8564796C19DF16B700A72F8B /* ImageFilterProcessViewController.m */,
+				8564796D19DF16B700A72F8B /* ImageUtil.h */,
+				8564796E19DF16B700A72F8B /* ImageUtil.m */,
+				8564796F19DF16B700A72F8B /* IphoneScreen.h */,
+				8564797019DF16B700A72F8B /* IphoneScreen.m */,
+				8564797119DF16B700A72F8B /* PickerAndFitlerAppDelegate.h */,
+			);
+			path = CustomImagePicker;
+			sourceTree = "<group>";
+		};
+		8564797619DF181D00A72F8B /* UIImage-Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8564797719DF181D00A72F8B /* UIImage+Alpha.h */,
+				8564797819DF181D00A72F8B /* UIImage+Alpha.m */,
+				8564797919DF181D00A72F8B /* UIImage+Cut.h */,
+				8564797A19DF181D00A72F8B /* UIImage+Cut.m */,
+				8564797B19DF181E00A72F8B /* UIImage+Resize.h */,
+				8564797C19DF181E00A72F8B /* UIImage+Resize.m */,
+				8564797D19DF181E00A72F8B /* UIImage+RoundedCorner.h */,
+				8564797E19DF181E00A72F8B /* UIImage+RoundedCorner.m */,
+				8564797F19DF181E00A72F8B /* UIImage+SplitImageIntoTwoParts.h */,
+				8564798019DF181E00A72F8B /* UIImage+SplitImageIntoTwoParts.m */,
+			);
+			path = "UIImage-Extensions";
+			sourceTree = "<group>";
+		};
+		8564798619DF84A000A72F8B /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				8564798719DF84A000A72F8B /* btn_back.png */,
+				8564798819DF84A000A72F8B /* btn_back@2x.png */,
+				8564798919DF84A000A72F8B /* camera_album.png */,
+				8564798A19DF84A000A72F8B /* camera_album@2x.png */,
+				8564798B19DF84A000A72F8B /* camera_btn_ok.png */,
+				8564798C19DF84A000A72F8B /* camera_btn_ok@2x.png */,
+				8564798D19DF84A000A72F8B /* camera_button_switch_camera.png */,
+				8564798E19DF84A000A72F8B /* camera_button_switch_camera@2x.png */,
+				8564798F19DF84A000A72F8B /* camera_cancel.png */,
+				8564799019DF84A000A72F8B /* camera_cancel@2x.png */,
+				8564799119DF84A000A72F8B /* camera_shoot.png */,
+				8564799219DF84A000A72F8B /* camera_shoot@2x.png */,
+			);
+			name = camera;
+			path = Resources/camera;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -228,9 +366,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8564799619DF84A000A72F8B /* camera_album@2x.png in Resources */,
+				8564799A19DF84A000A72F8B /* camera_button_switch_camera@2x.png in Resources */,
+				8564799819DF84A000A72F8B /* camera_btn_ok@2x.png in Resources */,
+				8564799719DF84A000A72F8B /* camera_btn_ok.png in Resources */,
+				8564799519DF84A000A72F8B /* camera_album.png in Resources */,
+				8564799419DF84A000A72F8B /* btn_back@2x.png in Resources */,
+				8564799B19DF84A000A72F8B /* camera_cancel.png in Resources */,
+				8564799C19DF84A000A72F8B /* camera_cancel@2x.png in Resources */,
 				8564794919DF03EE00A72F8B /* Images.xcassets in Resources */,
+				8564799E19DF84A000A72F8B /* camera_shoot@2x.png in Resources */,
 				8564793B19DF03EE00A72F8B /* InfoPlist.strings in Resources */,
+				8564799D19DF84A000A72F8B /* camera_shoot.png in Resources */,
+				8564799919DF84A000A72F8B /* camera_button_switch_camera.png in Resources */,
 				8564794419DF03EE00A72F8B /* Main.storyboard in Resources */,
+				8564799319DF84A000A72F8B /* btn_back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +399,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8564797219DF16B700A72F8B /* CustomImagePickerController.m in Sources */,
+				8564797519DF16B700A72F8B /* IphoneScreen.m in Sources */,
+				8564797419DF16B700A72F8B /* ImageUtil.m in Sources */,
+				8509F8E719E3F8DF00F053C5 /* SplashViewController.m in Sources */,
+				8564798219DF181E00A72F8B /* UIImage+Cut.m in Sources */,
 				8564794719DF03EE00A72F8B /* ViewController.m in Sources */,
+				8564798419DF181E00A72F8B /* UIImage+RoundedCorner.m in Sources */,
+				8564798119DF181E00A72F8B /* UIImage+Alpha.m in Sources */,
+				8564797319DF16B700A72F8B /* ImageFilterProcessViewController.m in Sources */,
+				8564798519DF181E00A72F8B /* UIImage+SplitImageIntoTwoParts.m in Sources */,
 				8564794119DF03EE00A72F8B /* AppDelegate.m in Sources */,
 				8564793D19DF03EE00A72F8B /* main.m in Sources */,
+				8564798319DF181E00A72F8B /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +616,7 @@
 				8564796119DF03EE00A72F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8564796219DF03EE00A72F8B /* Build configuration list for PBXNativeTarget "leyellCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +625,7 @@
 				8564796419DF03EE00A72F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
