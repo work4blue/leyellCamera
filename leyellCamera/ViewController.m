@@ -11,6 +11,8 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) AVPlayer *player;
+
 @end
 
 @implementation ViewController
@@ -24,7 +26,7 @@
 //    [self.volumeViewContainer addSubview:volumeView];
     
     [self startAudioSession];
- 
+
 
 }
 
@@ -180,40 +182,7 @@
     return YES;
 }
 
-//1. Edit your info.plist to stipulate that you do audio (UIBackgroundModes) in the background as well as foreground.
 
-
-- (void)  remoteControlReceivedWithEvent:(UIEvent *)receivedEvent {
-    
-    if (receivedEvent.type == UIEventTypeRemoteControl) {
-        
-        switch (receivedEvent.subtype) {
-                
-           case UIEventSubtypeRemoteControlTogglePlayPause:
-                  NSLog(@"Play toggle play pause");
-                break;
-            case UIEventSubtypeRemoteControlPlay:
-                NSLog(@"Play play");
-              //  [self playOrStop: nil];
-                break;
-            case UIEventSubtypeRemoteControlPause:
-                  NSLog(@"Play pause");
-                break;
-            case UIEventSubtypeRemoteControlPreviousTrack:
-               // [self previousTrack: nil];
-                 NSLog(@"Play prev");
-                break;
-                
-            case UIEventSubtypeRemoteControlNextTrack:
-                //[self nextTrack: nil];
-                 NSLog(@"Play next");
-                break;
-                
-            default:
-                break;
-        }
-    }
-}
 
 /*
  [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];

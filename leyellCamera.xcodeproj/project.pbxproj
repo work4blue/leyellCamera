@@ -181,6 +181,7 @@
 		8564793619DF03EE00A72F8B /* leyellCamera */ = {
 			isa = PBXGroup;
 			children = (
+				85DDF85919E9349E00C6CC2E /* Resources */,
 				8564798619DF84A000A72F8B /* camera */,
 				8564796619DF16B700A72F8B /* lib */,
 				8564796519DF106100A72F8B /* Common.h */,
@@ -289,6 +290,13 @@
 			name = camera;
 			path = Resources/camera;
 			sourceTree = SOURCE_ROOT;
+		};
+		85DDF85919E9349E00C6CC2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
